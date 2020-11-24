@@ -41,6 +41,7 @@ function(add_runtests targetname test_flags)
   )
 endfunction()
 
+add_runtests(test-1           "")
 add_runtests(test-quiet     "-a -s")
 add_runtests(test-am        "-a -am")
 add_runtests(test-full      "-a -p -r")
